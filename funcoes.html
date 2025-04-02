@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções</title>
+</head>
+<body>
+    <script>
+        // function exibeNomeEstudante(nome, nota, semestre){
+        //     alert(nome)
+        // }
+
+        // const nome = 'Jonas '
+        // exibeNomeEstudante(`${nome}`)
+
+        // exibeNomeEstudante("Jonas")
+
+        /*
+            Faça um função que receba um nome e uma nota
+            e exiba a mensagem "O nome do aluno é [nome]. 
+            E sua nota é [nota]"
+        */
+
+        function formataInfoEstudante(nome, nota) {
+            
+            const info = `
+            ==============================
+            Estudante: ${nome}
+
+            Sua nota: ${nota}
+            ==============================
+            `
+
+            return info
+        }
+
+        const infoEstudante = formataInfoEstudante('JONAS', 7.6)
+
+        alert(infoEstudante)
+
+
+        /*
+            Faça uma funçã o que receba 4 notas e retorne
+            a média das notas.
+        */
+
+        // function calcularMedia(n1, n2, n3, n4){
+        //     return (n1+n2+n3+n4)/4
+        // }
+
+
+        // Função Expressão (Anômnima)
+        const calcularMedia = function (n1, n2, n3, n4) {
+            return (n1+n2+n3+n4)/4
+        }
+
+        alert(calcularMedia(3, 6, 8, 10))
+
+
+
+
+
+
+
+
+
+        
+
+        
+
+    </script>
+
+</body>
+</html>

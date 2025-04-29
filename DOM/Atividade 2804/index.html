@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card User</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="container mt-4">
+        <h1>Card User</h1>
+        <form>
+            <div class="mb-3">
+                <label for="nameInput" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nameInput" placeholder="Digite seu nome">
+            </div>
+            <div class="mb-3">
+                <label for="emailInput" class="form-label">Email</label>
+                <input type="email" class="form-control" id="emailInput" placeholder="Digite seu email">
+            </div>
+            <div class="mb-3">
+                <label for="profInput" class="form-label">Profissão</label>
+                <input type="text" class="form-control" id="profInput" placeholder="Digite sua profissão">
+            </div>
+            <button type="button" class="btn btn-primary" id="addBtn">Criar Card</button>
+        </form>
+    </section>
+
+        <section class="container card-section">
+            <div class="card-container">
+                <ul id="cardList"></ul>
+            </div>
+        </section>  
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>    
+    <script src="script.js"></script>
+</body>
+</html>
